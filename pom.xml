@@ -23,10 +23,10 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <properties>
+  <!--  <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+    </properties>-->
 
     <dependency>
         <groupId>org.apache.maven.plugins</groupId>
@@ -34,7 +34,7 @@
         <version>3.8.1</version>
     </dependency>
 
-    <build>
+    <!--<build>
         <plugins>
             ...
             <plugin>
@@ -61,7 +61,7 @@
             </plugin>
         </plugins>
     </build>
-
+-->
 
 
 </project>
